@@ -39,6 +39,7 @@ abstract class NavigationHandler {
 
 /// Handles navigation
 class NavigationHandlerImpl implements NavigationHandler {
+  @override
   late GlobalKey<NavigatorState> navigatorKey;
 
   /// Constructs a NavigationHandler instance
